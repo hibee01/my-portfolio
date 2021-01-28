@@ -46,10 +46,10 @@ $(document).ready(function(){
         window.location.href = 'https://hibee01.github.io/foodie-website/'
     });
     $(".commerce").click(function(){
-        window.location.href = 'https://hibee01.github.io/ecommerce-website/'
+        window.location.href = 'https://hibee01.github.io/dev/'
     });
     $(".bootstrap").click(function(){
-        window.location.href = '/dev/index.html'
+        window.location.href = '/https://hibee01.github.io/d-best-course/'
     });
     $(".jumia").click(function(){
         document.location.href = '/jumia/index.html'
