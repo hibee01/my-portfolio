@@ -49,7 +49,7 @@ $(document).ready(function(){
         window.location.href = 'https://hibee01.github.io/dev/'
     });
     $(".bootstrap").click(function(){
-        window.location.href = '/https://hibee01.github.io/d-best-course/'
+        window.location.href = 'https://hibee01.github.io/d-best-course/'
     });
     $(".jumia").click(function(){
         document.location.href = '/jumia/index.html'
