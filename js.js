@@ -49,7 +49,7 @@ $(document).ready(function(){
         window.location.href = 'https://hibee01.github.io/ecommerce-website/'
     });
     $(".bootstrap").click(function(){
-        document.location.href = '/dev/index.html'
+        window.location.href = '/dev/index.html'
     });
     $(".jumia").click(function(){
         document.location.href = '/jumia/index.html'
