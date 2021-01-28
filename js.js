@@ -5,11 +5,11 @@ $(document).ready(function(){
         }else {
             $(".navbar").removeClass("sticky");
         }
-        if(this.scrollY >= 1120 ){
-            gsap.to('.card', {duration: 0.1, y: '0%', stagger: 0.5 });
-        } else {
-            gsap.To('.card', {opacity: 0});
-        }
+        // if(this.scrollY >= 1120 ){
+        //     gsap.to('.card', {duration: 0.1, y: '0%', opacity: 1, stagger: 0.5 });
+        // } else {
+        //     gsap.To('.card', {opacity: 0});
+        // }
         if(this.scrollY > 1300){
             $('.scroll-up-btn').addClass('show');
         }else{$('.scroll-up-btn').removeClass('show')}

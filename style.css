@@ -310,7 +310,6 @@ section .title:after {
 }
 .serv-content .card {
     display: inline-block;
-    transform: translateY(100%);
 }
 
 .services .serv-content .card {
