@@ -102,6 +102,24 @@ tl.fromTo('.hire', {opacity: 0}, {opacity: 1, duration: 0.4});
 
 
 
+const facebookBtn = document.querySelector(".facebook-btn")
+const twitterBtn = document.querySelector(".twitter-btn")
+const linkedinBtn = document.querySelector(".linkedin-btn")
+const redditBtn = document.querySelector(".reddit-btn")
+const pinterestBtn = document.querySelector(".pinterest-btn")
+
+
+    let postUrl = 'https://hibee01.github.io/my-portfolio/';
+    let postTitle = 'Hi everyone, pls check this out';
+
+    facebookBtn.setAttribute('href', 'https://www.facebook.com/sharer.php?u=[postUrl]'
+    );
+    twitterBtn.setAttribute('href', 'https://twitter.com/share?url=${postUrl}&text=${postTitle}'
+    );
+    linkedinBtn.setAttribute('href', 'https://www.linkedin.com/shareArticle?url=[post-url]&title=[post-title]'
+    );
+    redditBtn.setAttribute('href', 'https://reddit.com/submit?url=${postUrl}&title=${postTitle}'
+    );
 
 
 
