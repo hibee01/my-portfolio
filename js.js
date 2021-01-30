@@ -87,17 +87,15 @@ $(document).ready(function(){
         } else { $(this).text('Show more')}
        
     });
-})
 
-
-const tl = gsap.timeline({defaults: {ease: 'Power2.easeOut'} });
+    const tl = gsap.timeline({defaults: {ease: 'Power2.easeOut'} });
 
 
 tl.to('.text-1', {y:'0%', duration: 0.7 })
 tl.to('.text-2', {y:'0%', duration: 0.5 })
 tl.to('.text-3', {y:'0%', duration: 0.5 })
 tl.to('.typing', {y:'0%', duration: 0.5 })
-tl.fromTo('nav', {opacity: 0}, {opacity: 1, duration: 0.5}, '-=0.7')
+tl.fromTo('.navbar', {opacity: 0}, {opacity: 1, duration: 0.5}, '-=0.7')
 tl.fromTo('.hire', {opacity: 0}, {opacity: 1, duration: 0.4});
 
 
@@ -120,6 +118,10 @@ const pinterestBtn = document.querySelector(".pinterest-btn")
     );
     redditBtn.setAttribute('href', 'https://reddit.com/submit?url=${postUrl}&title=${postTitle}'
     );
+
+
+})
+
 
 
 

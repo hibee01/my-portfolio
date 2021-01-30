@@ -27,6 +27,7 @@ body {
     padding: 30px 0;
     transition: all 0.3s ease;
     z-index: 999;
+    opacity: 0;
 }
 
 .max-width {
@@ -168,10 +169,14 @@ section .title:after {
 
 .hide {
     overflow: hidden;
+    
 }
 .hide span {
     display: inline-block;
     transform: translateY(-120%);
+}
+.hire {
+    opacity: 0;
 }
 
 
