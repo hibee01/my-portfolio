@@ -33,7 +33,7 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Ui/Ux Designer", "Front-end Developer", "Digital Artist"],
+        strings: ["Ui/Ux Designer", "Web Developer", "Digital Artist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
