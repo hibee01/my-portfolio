@@ -5,7 +5,7 @@
     /* .about .about-content .column {
         width: 50%;
     } */
-    .about .about-content .left {
+    /* .about .about-content .left {
         width: 30%;
     }
     
@@ -16,6 +16,12 @@
         width: 250px;
         height: 300px;
         border-radius: 8px;
+    } */
+    .about .about-content .left img {
+        width: 30%;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
     }
     
 }
@@ -132,13 +138,13 @@
 }
 
 @media (max-width:840px ) {
-    .about .about-content .left {
+    /* .about .about-content .left {
         width: 30%;
     }
     
     .about .about-content .right {
         width: 57%;
-    }
+    } */
     .services .serv-content {
         display: block;
         width: 70%;
@@ -187,7 +193,7 @@
     section .title:before {
         width: 130px;
     }
-    .about .about-content {
+    /* .about .about-content {
         text-align: center;
     }
     .about .about-content .left {
@@ -197,7 +203,11 @@
     }
     .about .about-content .right {
         flex: 100%;
+    } */
+    .about .about-content .right p {
+        width: 80%; 
     }
+ 
     footer i {
         font-size: 1rem;
         margin-right: 0.2rem;
@@ -205,7 +215,13 @@
     }
  
 }
-
+@media (max-width: 630px){
+    .work .work-content {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
 @media (max-width:574px) {
  
     .home {
@@ -237,6 +253,9 @@
         font-weight: 600;
         margin-bottom: 10px;
     }
+    .about .about-content .right p {
+        width: 90%; 
+    }
     /* .services .serv-content .card {
         width: 80%;
         margin-left: 10%;
@@ -248,11 +267,7 @@
     .show-more {
         font-size: 1.1rem;
     }
-    .work .work-content {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
+
 
     .contact .right form .fields {
         display: block;
@@ -316,14 +331,14 @@
     .navbar .menu li a {
         font-size: 1rem;
     }
-    .about .about-content .left img {
+    /* .about .about-content .left img {
         width: 100px;
         height: 100px;
         object-fit: fill;
         border-radius: 100%;
         -moz-border-radius: 100%;
         -webkit-border-radius: 100%
-    }
+    } */
     
     .contact .right form .button {
         height: 40px;

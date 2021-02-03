@@ -51,6 +51,9 @@ $(document).ready(function(){
     $(".bootstrap").click(function(){
         window.location.href = 'https://hibee01.github.io/d-best-course/'
     });
+    $(".music").click(function(){
+        window.location.href = 'https://behance.net/hibee01/'
+    });
 
     $(".jumia").click(function(){
         document.location.href = '/jumia/index.html'

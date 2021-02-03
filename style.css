@@ -240,7 +240,7 @@ section .title:after {
     content: "Who I am";
 }
 
-.about .about-content, .services .serv-content, .contact .contact-content, .work .work-content {
+ .services .serv-content, .contact .contact-content, .work .work-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -248,24 +248,27 @@ section .title:after {
 }
 
 .about .about-content .left {
-    width: 35%;
+    width: 100%;
+    text-align: center;
 }
 
 .about .about-content .right {
-    width: 57%;
+    width: 100%;
+    text-align: center;
 }
 
 .about .about-content .left img {
-    width: 350px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 6px;
+    width: 20%;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 .about .about-content .right .text {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 10px;
+    
 }
 
 .about .about-content .right .text span {
@@ -273,7 +276,9 @@ section .title:after {
 }
 
 .about .about-content .right p {
-    text-align: justify;
+    text-align: center;
+    width: 70%;
+    margin: 1rem auto;
 }
 
 .about .about-content .right a {
