@@ -52,7 +52,10 @@ $(document).ready(function(){
         window.location.href = 'https://hibee01.github.io/d-best-course/'
     });
     $(".music").click(function(){
-        window.location.href = 'https://behance.net/hibee01/'
+        window.location.href = 'https://www.behance.net/gallery/112700841/Music-App-UI/'
+    });
+    $(".lodge").click(function(){
+        window.location.href = 'https://www.behance.net/gallery/112935667/Lodging-App-Mobile-UI/'
     });
 
     $(".jumia").click(function(){
