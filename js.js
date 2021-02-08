@@ -57,6 +57,9 @@ $(document).ready(function(){
     $(".lodge").click(function(){
         window.location.href = 'https://www.behance.net/gallery/112935667/Lodging-App-Mobile-UI/'
     });
+    $(".art").click(function(){
+        window.location.href = 'https://www.behance.net/hibee01'
+    });
 
     $(".jumia").click(function(){
         document.location.href = '/jumia/index.html'
@@ -76,14 +79,14 @@ $(document).ready(function(){
     // }
  
 
-    if($('.work-box').length > 2) {
-        $('.work-box:gt(1)').hide();
+    if($('.work-box').length > 4) {
+        $('.work-box:gt(3)').hide();
         $('.show-more').show();
     
     }
 
     $('.show-more').on('click', function(){
-        $('.work-box:gt(1)').toggle("slow");
+        $('.work-box:gt(3)').toggle("slow");
 
         // $(this).text() === 'show more' ?
         // $(this).text('show more') : $(this).text('show less');
