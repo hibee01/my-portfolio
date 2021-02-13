@@ -57,8 +57,11 @@ $(document).ready(function(){
     $(".lodge").click(function(){
         window.location.href = 'https://www.behance.net/gallery/112935667/Lodging-App-Mobile-UI/'
     });
+    $(".e-mobile").click(function(){
+        window.location.href = 'https://www.behance.net/gallery/113454199/E-commerce-Mobile-App-Dark-Theme-UI'
+    });
     $(".art").click(function(){
-        window.location.href = 'https://www.behance.net/hibee01'
+        window.location.href = 'https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page'
     });
 
     $(".jumia").click(function(){
