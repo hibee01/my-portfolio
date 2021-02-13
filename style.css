@@ -260,7 +260,7 @@ section .title:after {
 .about .about-content .left img {
     width: 20%;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-bottom: 1rem;
 }
 
@@ -420,6 +420,10 @@ section .title:after {
     cursor: pointer;
     font-size: 1.2rem;
     color: rgb(159, 238, 85);
+    border: 2px solid white;
+    width: 30%;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
 }
 
 /* contact styling */

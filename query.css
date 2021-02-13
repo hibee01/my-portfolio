@@ -351,6 +351,11 @@
         width: 100%;
     }
 
+    .show-more {
+        width: 50%;
+    }
+    
+
 
 }
 @media (max-width:420px) {
@@ -420,5 +425,8 @@
 @media (max-width:335px) {
     .home .home-content .text-3 span  {
         font-size: 1.2rem;
+    }
+    .show-more {
+        width: 70%;
     }
 }
