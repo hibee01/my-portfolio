@@ -82,14 +82,14 @@ $(document).ready(function(){
     // }
  
 
-    if($('.work-box').length > 4) {
-        $('.work-box:gt(3)').hide();
+    if($('.work-box').length > 6) {
+        $('.work-box:gt(5)').hide();
         $('.show-more').show();
     
     }
 
     $('.show-more').on('click', function(){
-        $('.work-box:gt(3)').toggle("slow");
+        $('.work-box:gt(5)').toggle("slow");
 
         // $(this).text() === 'show more' ?
         // $(this).text('show more') : $(this).text('show less');
