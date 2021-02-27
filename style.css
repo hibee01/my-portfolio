@@ -27,7 +27,6 @@ body {
     padding: 30px 0;
     transition: all 0.3s ease;
     z-index: 999;
-    opacity: 0;
 }
 
 .max-width {
@@ -50,6 +49,7 @@ body {
     padding: 0 2rem;
     border-radius: 4px;
     background-color: rgba(224, 119, 57, 0.219);
+    display: none;
 }
 
 .navbar .logo a span {
@@ -162,22 +162,24 @@ section .title:after {
     display: flex;
     background:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(img/249600.jpg) no-repeat center;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     color: #fff;
     font-family: 'Ubuntu', sans-serif ;
 }
 
-.hide {
+/* .hide {
     overflow: hidden;
     
-}
+} */
 .hide span {
     display: inline-block;
-    transform: translateY(-120%);
+    /* transform: translateY(-120%); */
 }
-.hire {
+
+
+/* .hire {
     opacity: 0;
-}
+} */
 
 
 /* .hide {
@@ -226,6 +228,8 @@ section .title:after {
     color: crimson;
     background: rgb(245, 245, 245);
 }
+
+
 
 /*  about section */
  section {

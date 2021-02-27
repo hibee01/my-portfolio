@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if(this.scrollY > 20){
+        if(this.scrollY > 100){
             $(".navbar").addClass("sticky");
         }else {
             $(".navbar").removeClass("sticky");
@@ -26,18 +26,18 @@ $(document).ready(function(){
 
     // typing animation
 
-    var typed = new Typed(".typing", {
-        strings: ["Ui/Ux Designer", "Front-end Developer", "Digital Artist"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-    var typed = new Typed(".typing-2", {
-        strings: ["Ui/Ux Designer", "Web Developer", "Digital Artist"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    // var typed = new Typed(".typing", {
+    //     strings: ["Ui/Ux Designer", "Front-end Developer", "Digital Artist"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
+    // var typed = new Typed(".typing-2", {
+    //     strings: ["Ui/Ux Designer", "Web Developer", "Digital Artist"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
 
     $(".foodie-app").click(function(){
         window.location.href = 'https://hibee01.github.io/my-foodie-app/'
@@ -82,23 +82,23 @@ $(document).ready(function(){
     // }
  
 
-    if($('.work-box').length > 6) {
-        $('.work-box:gt(5)').hide();
-        $('.show-more').show();
+    // if($('.work-box').length > 6) {
+    //     $('.work-box:gt(5)').hide();
+    //     $('.show-more').show();
     
-    }
+    // }
 
-    $('.show-more').on('click', function(){
-        $('.work-box:gt(5)').toggle("slow");
+    // $('.show-more').on('click', function(){
+    //     $('.work-box:gt(5)').toggle("slow");
 
-        // $(this).text() === 'show more' ?
-        // $(this).text('show more') : $(this).text('show less');
+    //     // $(this).text() === 'show more' ?
+    //     // $(this).text('show more') : $(this).text('show less');
 
-        if($(this).text() === 'Show more'){
-            $(this).text('Show less');
-        } else { $(this).text('Show more')}
+    //     if($(this).text() === 'Show more'){
+    //         $(this).text('Show less');
+    //     } else { $(this).text('Show more')}
        
-    });
+    // });
 
     const tl = gsap.timeline({defaults: {ease: 'Power2.easeOut'} });
 
@@ -106,9 +106,9 @@ $(document).ready(function(){
 tl.to('.text-1', {y:'0%', duration: 0.7 })
 tl.to('.text-2', {y:'0%', duration: 0.5 })
 tl.to('.text-3', {y:'0%', duration: 0.5 })
-tl.to('.typing', {y:'0%', duration: 0.5 })
-tl.fromTo('.navbar', {opacity: 0}, {opacity: 1, duration: 0.5}, '-=0.7')
-tl.fromTo('.hire', {opacity: 0}, {opacity: 1, duration: 0.4});
+// tl.to('.typing', {y:'0%', duration: 0.5 })
+// tl.fromTo('.navbar', {opacity: 0}, {opacity: 1, duration: 0.5}, '-=0.7')
+// tl.fromTo('.hire', {opacity: 0}, {opacity: 1, duration: 0.4});
 
 
 
