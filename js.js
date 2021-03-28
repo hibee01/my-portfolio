@@ -60,6 +60,12 @@ $(document).ready(function(){
     $(".e-mobile").click(function(){
         window.location.href = 'https://hibee01.github.io/E-commerce-mobile-app/'
     });
+    $(".switch").click(function(){
+        window.location.href = 'https://hibee01.github.io/switch-design-project/'
+    });
+    $(".rwanda").click(function(){
+        window.location.href = 'https://hibee01.github.io/Rwandaful/'
+    });
     $(".art").click(function(){
         window.location.href = 'https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page'
     });
