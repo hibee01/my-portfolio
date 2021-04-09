@@ -136,6 +136,7 @@ const pinterestBtn = document.querySelector(".pinterest-btn")
     );
     redditBtn.setAttribute('href', 'https://reddit.com/submit?url=${postUrl}&title=${postTitle}'
     );
+    
 
 
 })
