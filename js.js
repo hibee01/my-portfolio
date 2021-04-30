@@ -63,6 +63,9 @@ $(document).ready(function(){
     $(".switch").click(function(){
         window.location.href = 'https://hibee01.github.io/switch-design-project/'
     });
+    $(".switch-landing").click(function(){
+        window.location.href = 'https://hibee01.github.io/switch-landing-page/'
+    });
     $(".rwanda").click(function(){
         window.location.href = 'https://hibee01.github.io/Rwandaful/'
     });
