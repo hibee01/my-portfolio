@@ -244,7 +244,7 @@ section .title:after {
 }
 
 .about .title:after {
-    content: "Who I am";
+    content: "Who am I";
 }
 
  .services .serv-content, .contact .contact-content, .work .work-content {
