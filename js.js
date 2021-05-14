@@ -69,10 +69,10 @@ $(document).ready(function(){
     $(".rwanda").click(function(){
         window.location.href = 'https://hibee01.github.io/Rwandaful/'
     });
-    $(".gjustice").click(function(){
+    $(".art").click(function(){
         window.location.href = 'https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page'
     });
-    $(".art").click(function(){
+    $(".gjustice").click(function(){
         window.location.href = 'https://hibee01.github.io/Gjustice/'
     });
 
