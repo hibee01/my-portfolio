@@ -40,40 +40,43 @@ $(document).ready(function(){
     // });
 
     $(".foodie-app").click(function(){
-        window.location.href = 'https://hibee01.github.io/my-foodie-app/'
+        window.open('https://hibee01.github.io/my-foodie-app/', '_blank')
     })
     $(".foodie-web").click(function(){
         window.location.href = 'https://hibee01.github.io/foodie-website/'
     });
     $(".commerce").click(function(){
-        window.location.href = 'https://hibee01.github.io/dev/'
+        window.open('https://hibee01.github.io/dev/', '_blank')
     });
     $(".bootstrap").click(function(){
-        window.location.href = 'https://hibee01.github.io/d-best-course/'
+        window.open('https://hibee01.github.io/d-best-course/', '_blank')
     });
     $(".music").click(function(){
-        window.location.href = 'https://www.behance.net/gallery/112700841/Music-App-UI/'
+        window.open('https://www.behance.net/gallery/112700841/Music-App-UI/', '_open')
     });
     $(".lodge").click(function(){
-        window.location.href = 'https://www.behance.net/gallery/112935667/Lodging-App-Mobile-UI/'
+        window.open('https://www.behance.net/gallery/112935667/Lodging-App-Mobile-UI/', '_blank')
     });
     $(".e-mobile").click(function(){
-        window.location.href = 'https://hibee01.github.io/E-commerce-mobile-app/'
+        window.open('https://hibee01.github.io/E-commerce-mobile-app/', '_blank')
     });
     $(".switch").click(function(){
-        window.location.href = 'https://hibee01.github.io/switch-design-project/'
+        window.open('https://hibee01.github.io/switch-design-project/', '_blank')
     });
     $(".switch-landing").click(function(){
-        window.location.href = 'https://hibee01.github.io/switch-landing-page/'
+        window.open('https://hibee01.github.io/switch-landing-page/', '_blank')
     });
     $(".rwanda").click(function(){
-        window.location.href = 'https://hibee01.github.io/Rwandaful/'
+        window.open('https://hibee01.github.io/Rwandaful/', '_blank')
     });
     $(".art").click(function(){
-        window.location.href = 'https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page'
+        window.open('https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page', '_blank')
+    });
+    $(".elite").click(function(){
+        window.open('https://www.behance.net/gallery/124733937/Online-Farming-System-Admin-UI', '_blank')
     });
     $(".gjustice").click(function(){
-        window.location.href = 'https://hibee01.github.io/Gjustice/'
+        window.open('https://hibee01.github.io/Gjustice/', '_blank')
     });
 
     $(".jumia").click(function(){
