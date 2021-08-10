@@ -1,0 +1,238 @@
+@media (max-width: 1920px) {
+    .container {
+        width: 85%;
+    }
+
+    #header {
+        height: 65vh;
+        padding-top: 1%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    #header {
+        padding-top: 2%;
+    }
+
+    .hero {
+        margin: 8rem 0 0 0;
+    }
+
+    .hero h1 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5%;
+    }
+
+    .hero h3 {
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 70%;  
+    }
+
+    .small-boxes {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .sm-box {
+        flex-basis: 48%;
+        margin-bottom: 2rem;  
+    }
+
+    .red-desktop {
+        display: none;
+    }
+
+    .red-mobile {
+        display: block;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+
+    .hero {
+        margin: 6rem 0 0 0;
+    }
+
+    /* .nav-link a {
+        margin-left: 1.5rem;
+    } */
+
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a {
+        margin: 2rem 0;
+        display: block;
+    }
+
+    #header {
+        padding-top: 2%;
+    }
+
+    .hero h1 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5%;
+    }
+
+    .hero h3 {
+        width: 80%;  
+    }
+
+    #project {
+        margin-top: 5%;
+    }
+
+    #personal {
+        margin-top: 5rem;
+        padding: 1rem 0;
+    }
+
+    #project h1 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    #project h3 {
+        font-size: 1rem;
+    }
+
+    #project p {
+        font-size: 0.9rem;
+    }
+
+    #personal h1 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    #visual-experiment h1 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    #personal h3 {
+        font-size: 1rem;
+    }
+
+    #personal p {
+        font-size: 0.9rem;
+    }
+
+    .sm-logo {
+        width: 24%;
+    }
+
+    .box-title {
+        width: 27%;
+    }
+
+    #footer {
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width: 575px){
+
+    .container {
+        width: 85%;
+    }
+
+    #header {
+        height: 60vh;
+        padding-top: 4%;
+    }
+
+    .logo-img {
+        width: 60%;
+    }
+
+    .hero h1 {
+        font-size: 1.2rem;
+        margin-bottom: 4%;
+    }
+
+    .hero {
+        margin: 7rem 0 0 0;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero h3 {
+        width: 95%; 
+        font-size: 0.9rem; 
+    }
+
+    .boxes {
+        display: block;
+    }
+
+    .box {
+        margin-bottom: 3rem;
+    }
+
+    .sm-logo {
+        width: 18%;
+    }
+
+    .box-title {
+        width: 23%;
+    }
+
+    #project p, #personal p {
+        width: 100%;
+    }
+
+    .small-boxes {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+}
+
+

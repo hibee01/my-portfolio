@@ -1,379 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio website</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adebayo | UI/UX Designer</title>
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="query.css" />
-  </head>
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responssive.css">
+</head>
 
-  <body>
-      <div class="scroll-up-btn">
-          <i class="fas fa-angle-up"></i>
-      </div>
-    <nav class="navbar">
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">I<span>B</span></a>
-        </div>
-        <ul class="menu">
-          <li><a href="#about" class="menu-btn">About</a></li>
-          <li><a href="#services" class="menu-btn">Services</a></li>
-          <li><a href="#skills" class="menu-btn">Experience</a></li>
-          <li><a href="#work" class="menu-btn">Projects</a></li>
-          <li><a href="#contact" class="menu-btn">Contact</a></li>
-          <li><a style="background: crimson; padding: 7px 12px; border-radius: 3px;" href="#contact" class="menu-btn">Let's talk</a></li>
-        </ul>
-        <div class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </div>
-      </div>
-    </nav>
+<body>
 
-    <!-- home section -->
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          <div class="intro">
-            <div class="intro-text">
-              <h1 class="hide">
-                <span class="text-1">Hello, My Name Is</span>
-              </h1>
-              <h1 class="hide">
-                <span class="text-2">Ibiyemi Adebayo</span>
-              </h1>
-              <h1 class="hide">
-                <span class="text-none"
-                  >And I'm a <span class="trade"></span>UI/UX Designer</span
-                >
-              </h1>
-              <div class="hide">
-                <a class="hire" href="#contact">Let's talk</a>
-              </div>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><img class="logo-img" src="img/Adebayo.png" alt=""></div>
+
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+
+                <ul class="mainMenu">
+                    <li><a href="#header">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#visual-experiment">Experiments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                </ul>
+        
+                <!-- <div class="nav-link">
+                    
+                        <a href="">ABOUT</a>
+                        <a href="">PROJECTS</a>
+                        <a href="">EXPERIMENTS</a>
+                        <a href="">CONTACT</a>
+                </div>
+
+                <div class="menu-btn">
+                    <i class="fas fa-bars">
+                    </i>
+                </div> -->
+                
+            </nav>
+    
+            <div class="hero">
+                <h1>Hi, I'm Ibiyemi Adebayo - a UI/UX Designer</h1>
+                <h3>
+                I'm a user experience designer. I’ve helped companies, organizations, and start-ups build better digital products. I posses great proficiency in using figma, Adobe XD and Photoshop</h3>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- about section -->
-    <section class="about" id="about">
-      <div class="max-width">
-        <h2 class="title">About me</h2>
-        <div class="about-content">
-          <div class="column left">
-            <img src="img/IMG_1659 - Copy - Copy.JPG" alt="" />
-          </div>
+    
+        <section id="project">
+            <div class="container">
 
-          <div class="div column right">
-            <div class="text">
+                <h1>
+                    PROJECTS
+                </h1>
+
+                <div class="boxes switch">
+                    <div class="box">
+                        <div class="card"><img class="card-img" src="img/MacBook - 19.png" alt=""></div>
+                        <img class="box-title sm-logo" src="img/switch logo white.svg" alt="">
+                        <h3>
+                            E-commerce mobile app
+                        </h3>
+                        <p>
+                            A mobile marketplace that allows users to buy, sell and barter items with consumers, local merchants and businesses.
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <div class="card"><img class="card-img" src="img/MacBook - 3.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                        <img class="box-title sm-logo" src="img/incash-logo-mobile2.svg" alt="">
+                        <h3>
+                            Fintech Landing Page
+                        </h3>
+                        <p>
+                            A platform that provides loans and salary advancements to employers and employees.
+                        </p>
+                    </div>
+    
+                </div>
+            
+                <div class="boxes">
+
+                    <div class="box gjustice">
+                        <div class="card"><img class="card-img" src="img/MacBook - 11.png" alt=""></div>
+                        <img class="box-title" src="img/g-logo.png" alt="">
+                        <h3>
+                            Legal services mobile app
+                        </h3>
+                        <p>
+                            An app that connects subscribers to enlisted licensed Legal Practitioners through the Gjustice Service platform and Offline Tech Points, which allows the public request for Legal Services. 
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <div class="card"><img class="card-img" src="img/MacBook - 20.png" alt=""></div>
+                        <img class="box-title" src="img/dax-logo.svg" alt="">
+                        <h3>
+                            Fintech website
+                        </h3>
+                        <p>
+                            Daxinks is an automated loan/credit scheme and investment platform available online.
+                        </p>
+                    </div>
+
+                
+
+                  
+    
+                </div>
+
+                <div class="boxes">
+                    <div class="box switch-landing">
+                        <div class="card"><img class="card-img" src="img/MacBook - 22.png" alt=""></div>
+                        <img class="box-title sm-logo" src="img/switch logo white.svg" alt="">
+                        <h3>
+                            E-commerce mobile app landing page
+                        </h3>
+                        <p>
+                            A mobile marketplace that allows users to buy, sell and barter items with consumers, local merchants and businesses.
+                        </p>
+                    </div>
+
+                    <div class="box rwanda">
+                        <div class="card"><img class="card-img" src="img/rwanda.png" alt=""></div>
+                        <img class="box-title" src="img/RWANDAFUL-02.svg" alt="">
+                        <h3>
+                            Travel mobile app
+                        </h3>
+                        <p>Rwandaful app is a platform that     highlights the beauty of 
+                        rwanda, from destinations to accomodations, events, things to do, people and their cultures..</p>
+                    </div>
+    
+                </div>
+
               
-             
+
+                
+
             </div>
-            <p>
-              I'm a design-minded, detail oriented UI/UX Designer and Front-end Developer passionate about combining beautiful code with beautiful designs. I have experience designing and developing webpages, from simple landing pages, mobile apps to progressive web applications and prototypes. I strive to create webpages that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences. I love learning new and better ways to create seamless user experiences with clean, efficient UI/UX designs with scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me. 
-            </p>
-            <!-- <a class="resume-link" href="resume.html">Check out my resume</a> -->
-            <!-- <p>Your web browser doesn't have a PDF plugin.
-              Instead you can <a href="filename.pdf">click here to
-              download the PDF file.</a></p> -->
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- services section -->
+        <section id="personal">
+            <div class="container">
+                <h1>
+                    PERSONAL
+                </h1>
+    
+                <div class="boxes">
+                    <div class="box">
+                        <div class="card"><img class="card-img" src="img/MacBook - 12.png" alt=""></div>
+                        <!-- <img class="box-title" src="img/Group 2171.svg" alt=""> -->
+                        <h3>
+                            Food delivery mobile app
+                        </h3>
+                        <p>
+                            A mobile app design that allow users order food to their doorstep without any hassle.
+                        </p>
+                    </div>
+                 
+    
+                    <div class="box art">
+                        <div class="card"><img class="card-img" src="img/MacBook - 14.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                        <h3>
+                            Art exhibition landing page
+                        </h3>
+                        <p>
+                            An art exhibition website landing page.
+                        </p>
+                    </div>
+    
+                </div>
+    
+                <div class="boxes">
+                    <div class="box music">
+                        <div class="card"><img class="card-img" src="img/MacBook - 170.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                        <h3>
+                            Music app ui
+                        </h3>
+                        <p>
+                            An online streaming music webapp.
+                        </p>
+                    </div>
 
-    <section class="services" id="services">
-      <div class="max-width">
-        <h2 class="title">My Services</h2>
-        <div class="serv-content">
-          <!-- <div class="card">
-                        <div class="box">
-                            <i class="fas fa-laptop"></i>
-                            <div class="text">Web Design</div>
-                            <p>I create high-fidelity designs and prototypes that people can enjoy on all digital mediums.</p>
+                    <div class="box farming">
+                        <div class="card"><img class="card-img" src="img/MacBook - 2.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                        <h3>
+                            Online farming webpage
+                        </h3>
+                        <p>
+                            A System admin UI dashboard that manages lands and farms owned by one or multiple farmers.
+                        </p>
+                    </div>
+                    
+    
+                </div>
+
+                <div class="boxes">
+                  
+                    <div class="box e-mobile">
+                        <div class="card"><img class="card-img" src="img/MacBook - 222.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                        <h3>
+                            E-commerce mobile app
+                        </h3>
+                        <p>
+                            A B2C E-commerce mobile app (Dark theme).
+                        </p>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="card"><img class="card-img" src="img/MacBook - 221.png" alt=""></div>
+                        <!-- <h3>Title</h3> -->
+                     
+                    </div>
+    
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="visual-experiment">
+            <div class="container-2">
+                <h1>
+                    Visual Experiments
+                </h1>
+                <div class="small-boxes">
+                        <div class="sm-box">
+                            <img src="img/MacBook - 4.png" alt="" class="sm-box-img">
                         </div>
-                    </div> -->
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-laptop"></i>
-              <div class="text">Web Design</div>
-              <p>
-                I create beautiful high-fidelity web and mobile UI designs and prototypes that users can
-                enjoy on all digital platforms.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-code"></i>
-              <div class="text">Development</div>
-              <p>
-                I write clean, readable code using various technologies to build
-                attractive and responsive websites.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-paint-brush"></i>
-              <div class="text">Digital Art</div>
-              <p>
-                I use computer software to bring art, illustrations to life in
-                various web design projects.
-              </p>
-            </div>
-          </div>
-          <!-- <div class="card">
-                        <div class="box">
-                            <i class="fas fa-paint-brush"></i>
-                            <div class="text">Web Design</div>
-                            <p>I use computer software to bring art, illustrations to life on various web  designs designs designs designs.</p>
+                        <!-- <div class="sm-box">
+                            <img src="img/MacBook - 2.png" alt="" class="sm-box-img">
                         </div>
-                    </div> -->
-        </div>
-      </div>
-    </section>
+                        <div class="sm-box">
+                            <img src="img/MacBook - 1.png" alt="" class="sm-box-img">
+                        </div> -->
+                        <div class="sm-box">
+                            <img src="img/MacBook - 220.png" alt="" class="sm-box-img">
+                        </div>
+                        <div class="sm-box red-desktop">
+                            <img src="img/iPhone XS - Silver.png" alt="" class="sm-box-img">
+                        </div>
+                        <div class="sm-box">
+                            <img src="img/iPhone XS - Silver--.png" alt="" class="sm-box-img">
+                        </div>
+                        <div class="sm-box red-mobile">
+                            <img src="img/iPhone XS - Silver.png" alt="" class="sm-box-img">
+                        </div>
+                        
 
-    <!-- experience section -->
-
-    <section class="skills" id="skills">
-      <div class="max-width">
-        <h2 class="title">My Skills</h2>
-        <div class="skills-content">
-          <p>
-            I have been designing webpages for about two years now, and I'm
-            always eager to learn more in this fast paced industry.
-          </p>
-          <h3>HERE ARE SOME TECHNOLOGIES I'VE WORKED WITH:</h3>
-          <img class="tech" src="img/Group 2909.jpg" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <!-- work section -->
-
-    <section class="work" id="work">
-      <div class="max-width">
-        <h2 class="title">My Projects</h2>
-        <div class="work-content">
-          <div class="work-box art">
-            <img src="img/Untitled-1nnm.jpg" alt="">
-            <h3>Design</h3>
-            <h4>landing Page</h4>
-            <p>An art exhibition website landing page.</p>
-          </div>
-          <div class="work-box e-mobile">
-            <img src="img/ecommerce-1.jpg" alt="">
-            <h3>Design</h3>
-            <h4>E-commerce mobile app</h4>
-            <p>A B2C E-commerce mobile app(Dark theme).</p>
-          </div>
-          <div class="work-box switch">
-            <img src="img/switch2.jpg" alt="">
-            <h3>Design</h3>
-            <h4>E-commerce mobile app</h4>
-            <p>A mobile marketplace that allows users to buy, sell and barter items with consumers, local merchants and businesses. </p>
-          </div>
-          <div class="work-box switch-landing">
-            <img src="img/swutch-landing-img.jpg" alt="">
-            <h3>Design & Development</h3>
-            <h4>Landing Page</h4>
-            <p>A Responsive landing page website for a B2C e-commerce brand. </p>
-          </div>
-          <div class="work-box elite">
-            <img src="img/Group 152.png" alt="">
-            <h3>Design</h3>
-            <h4>Online Farming</h4> 
-            <p>A System admin ui interface to manage land and farms.</p>
-          </div>
-
-          <div class="work-box In-cash">
-            <img src="img/Frame 1.png" alt="">
-            <h3>Design</h3>
-            <h4>Incash Fintech landing Page</h4> 
-            <p>Incash provide loans and salary advance to employers and employees.</p>
-          </div>
-          <div class="work-box rwanda">
-            <img src="img/rwanda.jpg" alt="">
-            <h3>Design</h3>
-            <h4>Travel mobile app</h4>
-            <p>Rwandaful is a travel mobile app to explore beautiful places in Rwanda.</p>
-          </div>
-          <!-- <div class="work-box lodge">
-            <img src="img/triophones.png" alt="">
-            <h3>Design</h3>
-            <h4>Lodging Mobile App</h4> 
-            <p>A mobile app for lodging guests in private homes and properties.</p>
-          </div> -->
-          <div class="work-box foodie-app">
-            <img src="img/newfoodie.png" alt="">
-            <h3>Design</h3>
-            <h4>Mobile App Design</h4>
-            <p>A food mobile app design and prototype.</p>
-          </div>
-          <div class="work-box gjustice">
-            <img src="img/gjustice.jpg" alt="">
-            <h3>Design</h3>
-            <h4>Legal Services App</h4> 
-            <p>An app that connects subscribers to enlisted licensed Legal Practitioners.</p>
-          </div>
-          <!-- <div class="work-box foodie-web">
-            <img src="img/160.png" alt="">
-            <h3>Design</h3>
-            <h4>Responsive Web design</h4>
-            <p>A food website designed for various platforms.</p>
-          </div> -->
-        
-          <div class="work-box music">
-            <img src="img/Group 200.png" alt="">
-            <h3>Design</h3>
-            <h4>Music App UI</h4> 
-            <p>A online streaming music webapp.</p>
-          </div>
-
-          
-        
-          <!-- <div class="work-box logistic">
-            <img src="img/delivery-3.jpg" alt="">
-            <h3>Design</h3>
-            <h4>logistic app</h4>
-            <p>A logistic web app for tracking deliveries.</p>
-          </div> -->
-          <!-- <div class="work-box portfolio">
-            <img src="img/portfolio.png" alt="">
-              <h3>Development</h3>
-              <h4>Portfolio Website</h4>  
-              <p>My portfolio website built with html, css and Javascript.</p>
-          </div> -->
-          <!-- <div class="work-box commerce">
-            <img src="img/screenshot176.png" alt="">
-            <h3>Development</h3>
-            <h4>Responsive website</h4>  
-            <p>A responsive E-commerce website built with html, css and Javascript.</p>
-          </div> -->
-          <!-- <div class="work-box jumia">
-            <img src="img/jumiagif.gif" alt="">
-            <h3>Design & Development</h3>
-            <h4>E-commerce website</h4> 
-            <p>A recreation of Jumia website designed with Adobe XD and built with html, css and bootstrap.</p>
-          </div>
-          <div class="work-box bootstrap">
-            <img src="img/dev-mockup-image.png" alt="">
-            <h3>Development</h3>
-            <h4>landing Page</h4>
-            <p>Landing page of a tutor website built with html, css and bootstrap.</p>
-          </div> -->
-      
-         
-     
-        
-        </div>
-        <!-- <div class="show-more">Show more</div> -->
-      </div>
-    </section>
-
-    <!-- contact section -->
-
-    <section class="contact" id="contact">
-      <div class="max-width">
-        <h2 class="title">Contact Me</h2>
-        <div class="contact-content">
-          <div class="column left">
-            <!-- <div class="text">Get In Touch</div> -->
-            <p>
-              Whether you have an idea for a project or just want to chat, feel free to shoot me an email!
-            </p>
-            <div class="icons">
-              <div class="row">
-                <i class="fas fa-user"></i>
-                <div class="info name">
-                  <div class="head">Name</div>
-                  <div class="sub-title">Ibiyemi Adebayo</div>
                 </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="info address">
-                  <div class="head">Address</div>
-                  <div class="sub-title">Lagos, Nigeria.</div>
-                </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-phone"></i>
-                <div class="info address">
-                  <div class="head">Mobile</div>
-                  <div class="sub-title"><a href="tel:+2347055848023">+2347055848023</a>  <br>  <a href="tel:+2348136873941">+2348136873941</a></div>
-                </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-envelope"></i>
-                <div class="info">
-                  <div class="head">Email</div>
-                  <div class="sub-title"><a href="mailto:bayoibiyemi1@gmail.com">Bayoibiyemi1@gmail.com</a></div>
-                </div>
-              </div>
+                <!-- <div class="small-boxes">
+                        <div class="sm-box">
+                            <img src="img/MacBook - 15.png" alt="" class="sm-box-img">
+                        </div>
+                        <div class="sm-box">
+                            <img src="img/iPhone XS - Silver--.png" alt="" class="sm-box-img">
+                        </div>
+                        <div class="sm-box">
+                            <img src="img/iPhone XS - red.png" alt="" class="sm-box-img">
+                        </div>
+                </div> -->
             </div>
-          </div>
-          <div class="column right">
-            <div class="text">Message</div>
+        </section>
 
-            <form action="https://formspree.io/f/xeqpnbdq" method="post">
-              <div class="fields">
-                <div class="field name">
-                    <input type="text" placeholder="Name" required id="name" name="name">
+        <section id="contact">
+            <div class="container-2">
+                <h1>
+                    Contact Me
+                </h1>
+                <div class="contact-details">
+                    <a href="mailto:bayoibiyemi1@gmail.com">bayoibiyemi1@gmail.com</a>
                 </div>
-                <div class="field email">
-                    <input type="email" placeholder="Email Address" required id="email" name="_replyto">
-                </div>
-               
-              </div>
-              <div class="field">
-                <input type="text" placeholder="Subject" required name="subject">
+                <div class="contact-details"><a href="tel:+2347055848023">+2347055848023</a></div>
             </div>
-            <div class="field textarea">
-                <textarea id="" cols="30" rows="10" placeholder="Describe project..." required name="message"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit" value="send">Send message</button>
-            </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- footer section -->
-    <footer>
-        <div>
-          Created By <span>IbiyemiAdebayo </span>| <span class="far fa-copyright"></span> 2021 All rights reserved.
-        </div>
-        <!-- <div class="share">
-          <p>share this on :</p>
-          <a href="#" class="twitter-btn"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="reddit-btn"><i class="fab fa-reddit-alien"></i></a>
-          <a href="#" class="facebook-btn"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="linkedin-btn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="pinterest-btn"><i class="fab fa-pinterest"></i></a>
-        </div> -->
-        
-    </footer>
+        <section id="footer">
+            <div class="container-2">
+                <footer>
+                    <div>
+                      Created By <span>IbiyemiAdebayo </span>| <span class="far fa-copyright"></span> 2021 All rights reserved.
+                    </div>
+                    
+                </footer>
+            </div>
+        </section>
+    
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
-      integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="jquery-3.5.1.js"></script>
-    <script src="js.js"></script>
-  </body>
+
+        <script src="jquery-3.5.1.js"></script>
+        <script src="js.js"></script>
+
+    
+</body>
 </html>
