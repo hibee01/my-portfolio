@@ -50,6 +50,6 @@ $(document).ready(function(){
     });
 
     $(".rwanda").click(function(){
-        window.open('https://hibee01.github.io/Rwandaful/, '_blank')
+        window.open('https://hibee01.github.io/Rwandaful/,', '_blank')
     });
 });
