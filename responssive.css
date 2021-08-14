@@ -96,7 +96,7 @@
 
     }
     nav .openMenu {
-        display: block;
+        display: none;
     }
 
     nav .mainMenu li a {
