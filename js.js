@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
     $(".switch").click(function(){
-        window.open('https://www.behance.net/gallery/121393153/E-commerce-Mobile-App', '_blank')
+        window.open('https://hibee01.github.io/switch-design-project/', '_blank')
     });
 
     $(".gjustice").click(function(){
