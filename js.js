@@ -52,4 +52,8 @@ $(document).ready(function(){
     $(".rwanda").click(function(){
         window.open(' https://hibee01.github.io/Rwandaful/', '_blank')
     });
+
+    $(".foodie").click(function(){
+        window.open('https://hibee01.github.io/my-foodie-app/', '_blank')
+    });
 });
