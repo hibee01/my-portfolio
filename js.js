@@ -56,4 +56,8 @@ $(document).ready(function(){
     $(".foodie").click(function(){
         window.open('https://hibee01.github.io/my-foodie-app/', '_blank')
     });
+
+    $(".Dax").click(function(){
+        window.open('https://hibee01.github.io/Daxlinks/', '_blank')
+    });
 });
