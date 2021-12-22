@@ -165,6 +165,10 @@
         width: 27%;
     }
 
+    .sm-logo-2 {
+        width: 10%;
+    }
+
     #footer {
         font-size: 0.8rem;
     }
@@ -173,9 +177,9 @@
 
 @media (max-width: 575px){
 
-    .container {
+    /* .container {
         width: 85%;
-    }
+    } */
 
     #header {
         height: 60vh;
@@ -223,6 +227,11 @@
     .box-title {
         width: 23%;
     }
+
+    .sm-logo-2 {
+        width: 10%;
+    }
+
 
     #project p, #personal p {
         width: 100%;

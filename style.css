@@ -28,7 +28,7 @@ h1, h3 {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     /* background-color: rgb(240, 173, 173); */
 }
@@ -165,6 +165,12 @@ nav .mainMenu .closeMenu , .icons i {
 .sm-logo {
     width: 15%;
 }
+
+.sm-logo-2 {
+    width: 7%;
+}
+
+
 
 .card-img {
     width: 95%;

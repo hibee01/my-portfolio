@@ -33,12 +33,12 @@ $(document).ready(function(){
         window.open('http://www.switchapp.us/', '_blank')
     });
 
-    $(".art").click(function(){
-        window.open('https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page', '_blank')
-    });
+    // $(".art").click(function(){
+    //     window.open('https://www.behance.net/gallery/113074999/Art-Gallery-Landing-Page', '_blank')
+    // });
 
     $(".music").click(function(){
-        window.open('https://www.behance.net/gallery/112700841/Music-App-UI/', '_blank')
+        window.open('https://hibee01.github.io/music-app/', '_blank')
     });
 
     $(".e-mobile").click(function(){
@@ -46,7 +46,7 @@ $(document).ready(function(){
     });
 
     $(".farming").click(function(){
-        window.open('https://www.behance.net/gallery/124733937/Online-Farming-System-Admin-UI', '_blank')
+        window.open('https://hibee01.github.io/complete-farmer/', '_blank')
     });
 
     $(".rwanda").click(function(){
