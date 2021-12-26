@@ -64,4 +64,8 @@ $(document).ready(function(){
     $(".rosabon").click(function(){
         window.open('https://www.figma.com/file/Txd7sCxIEiF385p15LYaAp/Rosabon-finance?node-id=0%3A1', '_blank')
     });
+
+    $(".incash").click(function(){
+        window.open('https://www.figma.com/file/NH2gqR9EnGce9EhMakBi1V/Incash-Landing-page?node-id=0%3A1', '_blank')
+    });
 });
