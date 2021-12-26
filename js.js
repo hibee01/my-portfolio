@@ -60,4 +60,8 @@ $(document).ready(function(){
     $(".Dax").click(function(){
         window.open('https://hibee01.github.io/Daxlinks/', '_blank')
     });
+
+    $(".rosabon").click(function(){
+        window.open('https://www.figma.com/file/Txd7sCxIEiF385p15LYaAp/Rosabon-finance?node-id=0%3A1', '_blank')
+    });
 });
