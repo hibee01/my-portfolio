@@ -66,6 +66,6 @@ $(document).ready(function(){
     });
 
     $(".incash").click(function(){
-        window.open('https://www.figma.com/file/NH2gqR9EnGce9EhMakBi1V/Incash-Landing-page?node-id=0%3A1', '_blank')
+        window.open('https://incash.africa/index.html', '_blank')
     });
 });
