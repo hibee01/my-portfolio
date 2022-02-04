@@ -68,4 +68,8 @@ $(document).ready(function(){
     $(".incash").click(function(){
         window.open('https://incash.africa/index.html', '_blank')
     });
+
+    $(".tuc").click(function(){
+        window.open('https://hibee01.github.io/Tuc/', '_blank')
+    });
 });
