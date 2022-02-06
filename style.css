@@ -34,7 +34,7 @@ h1, h3 {
 }
 
 .container-2 {
-    width: 90%;
+    width: 95%;
     margin: auto;
     
 }
@@ -217,7 +217,7 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 .sm-box {
-    flex-basis: 32%;  
+    flex-basis: 24.5%;  
 }
 
 .sm-box-img {
