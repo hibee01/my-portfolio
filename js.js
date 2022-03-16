@@ -72,4 +72,8 @@ $(document).ready(function(){
     $(".tuc").click(function(){
         window.open('https://hibee01.github.io/Tuc/', '_blank')
     });
+
+    $(".switch-auto").click(function(){
+        window.open('https://switchautomations.com/', '_blank')
+    });
 });
