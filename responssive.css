@@ -4,7 +4,7 @@
     }
 
     #header {
-        height: 65vh;
+        height: 40vh;
         padding-top: 1%;
     }
 
@@ -12,7 +12,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 10%;
+        margin-bottom: 6%;
     }
 }
 
@@ -22,11 +22,11 @@
     }
 
     #header {
-        padding-top: 2%;
+        padding: 2% 0;
     }
 
     .hero {
-        margin: 8rem 0 0 0;
+        margin: 5rem 0 0 0;
     }
 
     .hero h1 {
@@ -66,7 +66,7 @@
 @media (max-width: 767px) {
 
     .hero {
-        margin: 6rem 0 0 0;
+        margin: 4rem 0 1rem 0;
     }
 
     /* .nav-link a {
@@ -182,8 +182,8 @@
     } */
 
     #header {
-        height: 60vh;
-        padding-top: 4%;
+        height: 40vh;
+        padding-top: 1rem;
     }
 
     .logo-img {
@@ -196,7 +196,7 @@
     }
 
     .hero {
-        margin: 7rem 0 0 0;
+        margin: 3rem 0 0 0;
     }
 
     .nav-link {
