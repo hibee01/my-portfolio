@@ -244,4 +244,33 @@
     }
   });
 
+     
+//   $(".music").click(function(){
+//     window.open('https://hibee01.github.io/music-app/', '_blank')
+// });
+
+
+ 
+
 })()
+
+function musicz() {
+  window.open(
+    "https://hibee01.github.io/music-app/", "_blank");
+}
+function rwanda() {
+  window.open(
+    "https://hibee01.github.io/Rwandaful/", "_blank");
+}
+function rwanda() {
+  window.open(
+    "https://hibee01.github.io/Rwandaful/", "_blank");
+}
+function tuc() {
+  window.open(
+    "https://hibee01.github.io/Tuc/", "_blank");
+}
+function gym() {
+  window.open(
+    "https://www.figma.com/proto/3tVaxDoLFTWZayDaF7cFNp/Gym-prototype?page-id=0%3A1&node-id=31%3A16142&viewport=241%2C48%2C0.06&scaling=scale-down&starting-point-node-id=3%3A9488&show-proto-sidebar=1", "_blank");
+}
