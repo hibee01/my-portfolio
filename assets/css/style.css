@@ -26,6 +26,9 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+.gymbuddy a {
+  font-size: 20px;
+}
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
