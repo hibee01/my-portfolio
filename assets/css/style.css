@@ -29,6 +29,26 @@ body::before {
 .gymbuddy a {
   font-size: 20px;
 }
+
+.project-btn {
+  padding: 1rem 1.8rem;
+  background-color: #1CB954;
+  border: none;
+  color: #ffffff;
+}
+.project-btn a {
+  color: #ffffff;
+}
+.project-btn-mb {
+  padding: 0.7rem 1.2rem;
+  background-color: #1CB954;
+  border: none;
+  color: #ffffff;
+}
+.project-btn-mb a {
+ font-size: 0.8rem;
+  color: #ffffff;
+}
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -818,13 +838,14 @@ section .container {
   
 }
 .portfolio .portfolio-wrap .portfolio-links {
+  margin-top: 2rem;
   text-align: center;
   z-index: 4;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  margin: 0 2px;
-  font-size: 28px;
+  margin: 0 24px;
+  font-size: 18px;
   display: inline-block;
   transition: 0.3s;
 }
