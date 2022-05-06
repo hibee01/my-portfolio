@@ -254,14 +254,14 @@
 
 })()
 
-// function musicz() {
-//   window.open(
-//     "https://hibee01.github.io/music-app/", "_blank");
-// }
-// function rwanda() {
-//   window.open(
-//     "https://hibee01.github.io/Rwandaful/", "_blank");
-// }
+function music() {
+  window.open(
+    "https://hibee01.github.io/music-app/", "_blank");
+}
+function rwanda() {
+  window.open(
+    "https://hibee01.github.io/Rwandaful/", "_blank");
+}
 function rwanda() {
   window.open(
     "https://hibee01.github.io/Rwandaful/", "_blank");

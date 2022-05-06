@@ -32,16 +32,20 @@ body::before {
 
 .project-btn {
   padding: 1rem 1.8rem;
-  background-color: #1CB954;
+  background-color: #2EC5CE;
   border: none;
   color: #ffffff;
 }
 .project-btn a {
   color: #ffffff;
 }
+.project-btn a:hover {
+  color: #4f1294;
+  font-weight: 600;
+}
 .project-btn-mb {
   padding: 0.7rem 1.2rem;
-  background-color: #1CB954;
+  background-color: #2EC5CE;
   border: none;
   color: #ffffff;
 }
@@ -850,7 +854,8 @@ section .container {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #8C30F5;
+  color: #4f1294;
+  font-weight: 600;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
