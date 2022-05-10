@@ -256,7 +256,7 @@
 
 function music() {
   window.open(
-    "https://hibee01.github.io/music-app/", "_blank");
+    "https://hibee01.github.io/Music_Casestudy/", "_blank");
 }
 function rwanda() {
   window.open(
