@@ -282,3 +282,7 @@ function crptol() {
   window.open(
     "https://hibee01.github.io/Crpto-landing/", "_blank");
 }
+function avat() {
+  window.open(
+    "https://hibee01.github.io/avat/", "_blank");
+}
