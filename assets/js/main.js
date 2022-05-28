@@ -286,3 +286,7 @@ function avat() {
   window.open(
     "https://hibee01.github.io/avat/", "_blank");
 }
+function switchland() {
+  window.open(
+    "https://switchapp.us/", "_blank");
+}
