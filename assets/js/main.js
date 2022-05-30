@@ -294,3 +294,7 @@ function fashion() {
   window.open(
     "https://hibee01.github.io/fashion/", "_blank");
 }
+function avatland() {
+  window.open(
+    "https://hibee01.github.io/avat_landing/", "_blank");
+}
