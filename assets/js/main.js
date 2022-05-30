@@ -290,3 +290,7 @@ function switchland() {
   window.open(
     "https://switchapp.us/", "_blank");
 }
+function fashion() {
+  window.open(
+    "https://hibee01.github.io/fashion/", "_blank");
+}
