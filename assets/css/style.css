@@ -26,6 +26,9 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+.gymbuddy-mobile {
+  display: none;
+}
 .gymbuddy a {
   font-size: 20px;
 }
@@ -188,6 +191,9 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width: 575px) {
   .gymbuddy {
     display: none;
+  }
+  .gymbuddy-mobile {
+    display: block;
   }
 }
 
