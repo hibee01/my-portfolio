@@ -56,6 +56,11 @@ body::before {
  font-size: 0.8rem;
   color: #ffffff;
 }
+
+.portfolio-details-slider {
+  height: 80vh;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
