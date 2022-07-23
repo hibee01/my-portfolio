@@ -32,7 +32,17 @@ body::before {
 .gymbuddy a {
   font-size: 20px;
 }
-
+.landing-logos ul li{
+  display: inline-block;
+  margin-right: 1.5rem;
+  width: 8%;
+}
+.landing-logos ul li img{
+  width: 100%;
+}
+.landing-logos ul li .tuc-logo-land {
+  width: 70%;
+}
 .project-btn {
   padding: 1rem 1.8rem;
   background-color: #2EC5CE;

@@ -298,3 +298,7 @@ function avatland() {
   window.open(
     "https://hibee01.github.io/avat_landing/", "_blank");
 }
+function cuba() {
+  window.open(
+    "https://hibee01.github.io/cuba_mobile_bank/", "_blank");
+}
