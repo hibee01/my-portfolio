@@ -71,6 +71,12 @@ body::before {
   height: 80vh;
 }
 
+@media (min-width: 1500px) {
+  .portfolio-details-slider {
+    height: 85vh;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -431,6 +437,12 @@ section .container {
 .fst-italic {
   line-height: 2;
   color: rgba(255, 255, 255, 0.726);
+}
+
+@media (max-width: 575px) {
+  .portfolio-details-slider {
+    height: 50vh;
+  }
 }
 
 /*--------------------------------------------------------------
